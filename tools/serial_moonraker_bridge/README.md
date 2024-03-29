@@ -131,3 +131,13 @@ This includes a RemotePrint.gcode that you can upload to klipper. One can start 
 
 Copy the RemotePrint.gcode file into Klipper (via Mainsail, Fluidd, etc)
 In the start job GCODE in canvas, add `___START_JOB___` if you want the bridge to start the fake job automatically.
+
+
+#K1 README
+ - root K1
+ - Install Entware and Klipper Gcode Shell Command from here: https://guilouz.github.io/Creality-K1-Series/
+ - install via pip3 pyserial and websockets
+```
+pip3 install websockets
+pip3 install pyserial
+```
